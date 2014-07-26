@@ -4,10 +4,31 @@
 	<artifactId>vault-demo</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	
+	<build>
+		<pluginManagement>
+			<plugins>
+				<plugin>
+      				<groupId>org.apache.maven.plugins</groupId>
+     				<artifactId>maven-compiler-plugin</artifactId>
+      				<configuration>
+        				<source>1.8</source>
+        				<target>1.8</target>
+        				<encoding>UTF-8</encoding>
+      				</configuration>
+    			</plugin>
+    		</plugins>
+    	</pluginManagement>
+    </build>
+	
 	<dependencies>
 		<dependency>
 			<groupId>org.vault</groupId>
 			<artifactId>vault-admin</artifactId>
+			<version>0.0.1-SNAPSHOT</version>
+		</dependency>
+		<dependency>
+			<groupId>org.vault</groupId>
+			<artifactId>vault-boot</artifactId>
 			<version>0.0.1-SNAPSHOT</version>
 		</dependency>
 	</dependencies>

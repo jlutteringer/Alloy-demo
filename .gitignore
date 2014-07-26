@@ -1,12 +1,28 @@
-*.class
-
-# Mobile Tools for Java (J2ME)
-.mtj.tmp/
-
-# Package Files #
-*.jar
-*.war
-*.ear
-
-# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
-hs_err_pid*
+target/
+.classpath
+.project
+.settings
+*.swp
+test-output
+.idea
+*.iml
+.metadata
+*.ipr
+site/data/
+.svn
+site/solrhome
+combined/data/
+combined/solrhome
+/lib/dev/jrebel/bin/jrebel-temp/
+licensing.info
+/log/*
+bin/
+lib/dev/jrebel/bin/jrebel-temp/
+jrebel.log
+core/src/main/resources/rebel.xml
+admin/src/main/resources/rebel.xml
+rebel.xml
+catalina.sh
+UNABLE TO INITIALIZE LICENSING - NO LICENSE FOUND.error
+scripts/db/convert-passwords.out
+scripts/db/convert-passwords.sh

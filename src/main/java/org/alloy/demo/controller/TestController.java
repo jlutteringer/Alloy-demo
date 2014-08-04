@@ -1,12 +1,12 @@
-package org.vault.demo.controller;
+package org.alloy.demo.controller;
 
+import org.alloy.site.controller.AlloyController;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
-import org.vault.site.controller.VaultController;
 
 @Controller
-public class TestController extends VaultController {
+public class TestController extends AlloyController {
 	@ResponseBody
 	@RequestMapping("/test")
 	private String test() {

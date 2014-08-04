@@ -1,7 +1,7 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
-	<groupId>vault</groupId>
-	<artifactId>vault-demo</artifactId>
+	<groupId>org.alloy</groupId>
+	<artifactId>demo</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	
 	<build>
@@ -22,13 +22,13 @@
 	
 	<dependencies>
 		<dependency>
-			<groupId>org.vault</groupId>
-			<artifactId>vault-admin</artifactId>
+			<groupId>org.alloy</groupId>
+			<artifactId>alloy-admin</artifactId>
 			<version>0.0.1-SNAPSHOT</version>
 		</dependency>
 		<dependency>
-			<groupId>org.vault</groupId>
-			<artifactId>vault-boot</artifactId>
+			<groupId>org.alloy</groupId>
+			<artifactId>alloy-boot</artifactId>
 			<version>0.0.1-SNAPSHOT</version>
 		</dependency>
 	</dependencies>

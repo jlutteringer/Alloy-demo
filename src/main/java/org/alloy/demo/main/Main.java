@@ -1,10 +1,10 @@
-package org.vault.demo.main;
+package org.alloy.demo.main;
 
-import org.vault.boot.application.VaultApplication;
+import org.alloy.boot.application.AlloyApplication;
 
 public class Main {
 	public static void main(String[] args) {
 		System.setProperty("environment", "dev");
-		VaultApplication.run(args);
+		AlloyApplication.run(args);
 	}
 }

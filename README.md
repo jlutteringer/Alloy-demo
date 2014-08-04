@@ -1,2 +1,2 @@
-vault-demo
+Alloy-demo
 ==========

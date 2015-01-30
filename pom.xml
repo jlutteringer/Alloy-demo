@@ -23,17 +23,12 @@
 	<dependencies>
 		<dependency>
 			<groupId>org.alloy</groupId>
-			<artifactId>alloy-admin</artifactId>
+			<artifactId>alloy-site</artifactId>
 			<version>0.0.1-SNAPSHOT</version>
 		</dependency>
 		<dependency>
 			<groupId>org.alloy</groupId>
 			<artifactId>alloy-boot</artifactId>
-			<version>0.0.1-SNAPSHOT</version>
-		</dependency>
-		<dependency>
-			<groupId>org.alloy</groupId>
-			<artifactId>crucible-demo</artifactId>
 			<version>0.0.1-SNAPSHOT</version>
 		</dependency>
 	</dependencies>
